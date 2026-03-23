@@ -1,3 +1,26 @@
+# Code test:
+
+- simple implementation of the assignemtn.
+- i did not focus on design and UX, just went with the gut feeling and quick implementation.
+- used vite, react-router and react-query - my choice, and plain CSS and JS, as requested.
+- no AI used, except for some code completion and vitest tests, for quicker turnaround. Manually reviewd.
+
+If I would have more time i would work on pixel details, theming, nicer animations. I think functionality is there. If end product involves more complex stuff, I would consider adding state.
+
+## Instructions
+
+### Install dependencies
+
+npm install
+
+### run on localhost (vite)
+
+npm run dev
+
+### test
+
+npm run tes
+
 # The Game of Thrones family
 
 A Game of Thrones character and continent information service.
@@ -25,6 +48,7 @@ Feel free to crop or modify any image or asset for the best result.
 The mockup is just an example, feel free to deviate from it and improve the design as long as the requirements are fulfilled.
 
 ## Files
+
 You will be provided some early mocks describing the look and feel and also some graphical assets to be used in your app.
 
 ![assets/img.png](assets/wires_desktop.png)
@@ -35,6 +59,3 @@ You will be provided some early mocks describing the look and feel and also some
 
 ![img.png](assets/wires_mobile.png)
 <em>Mobile view</em>
-
-
-
