@@ -1,0 +1,77 @@
+:root {
+  --font-primary: "Unibet Pro", sans-serif;
+  --fs-base: 0.95rem;
+  --space-sm: 0.5rem;
+  --space-md: 0.75rem;
+  --space-lg: 1rem;
+  --space-2xl: 1.5rem;
+  --space-3xl: 2rem;
+  --space-4xl: 2.5rem;
+  --border-thin: 1px;
+  --radius-md: 0.5rem;
+  --color-text: #e0e0e0;
+  --color-text-bright: #fff;
+  --color-accent: #c9a84c;
+  --color-border-medium: rgba(255, 255, 255, 0.15);
+  --size-max-width: 75rem;
+}
+
+@font-face {
+  font-family: "Unibet Pro";
+  src: url("./fonts/UnibetPro2020.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scrollbar-gutter: stable;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-primary);
+  background: #0f0f1a;
+  background-image: url("/assets/background.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: var(--color-text);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* overlay for the background image */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 15, 26, 0.75);
+  z-index: 0;
+  pointer-events: none;
+}
+
+#root {
+  position: relative;
+  z-index: 1;
+}
+
+.app {
+  min-height: 100vh;
+  position: relative;
+  z-index: 1;
+  font-family: var(--font-primary);
+}
+
+.error {
+  text-align: center;
+  color: #e74c3c;
+  padding: var(--space-4xl);
+  font-size: 1.1rem;
+}

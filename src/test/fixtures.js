@@ -1,0 +1,38 @@
+export const mockCharacters = [
+  {
+    id: 1,
+    firstName: "Jon",
+    lastName: "Snow",
+    fullName: "Jon Snow",
+    title: "King in the North",
+    family: "House Stark",
+    imageUrl: "https://example.com/jon.jpg",
+  },
+  {
+    id: 2,
+    firstName: "Cersei",
+    lastName: "Lannister",
+    fullName: "Cersei Lannister",
+    title: "Queen",
+    family: "House Lannister",
+    imageUrl: "https://example.com/cersei.jpg",
+  },
+  {
+    id: 3,
+    firstName: "Arya",
+    lastName: "Stark",
+    fullName: "Arya Stark",
+    title: "No One",
+    family: "House Stark",
+    imageUrl: "https://example.com/arya.jpg",
+  },
+  {
+    id: 4,
+    firstName: "Hodor",
+    lastName: "",
+    fullName: "Hodor",
+    title: "",
+    family: "",
+    imageUrl: "https://example.com/hodor.jpg",
+  },
+];
