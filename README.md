@@ -9,17 +9,11 @@ If I would have more time i would work on pixel details, theming, nicer animatio
 
 ## Instructions
 
-### Install dependencies
+- npm install (Install dependencies)
 
-npm install
+- npm run dev (run on localhost (vite))
 
-### run on localhost (vite)
-
-npm run dev
-
-### test
-
-npm run tes
+- npm run test (run tests)
 
 # The Game of Thrones family
 
